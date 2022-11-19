@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    display: block;
+    width: 170px;
+    border: 1px solid #d3ad7f;
+    padding: 11px 27px 11px 35px;
+    background-color: #d3ad7f;
+    color: #fff;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 20px;
+    border-bottom: 1px solid #222;
+    background-color: rgb(6, 6, 6);
+}
+
+header img{
+    height: 3.5rem;
+}
+
+header nav a{
+    margin: 0 6px;
+    font-weight: 600;
+    font-size: .92rem;
+    color: rgb(209, 206, 206);
+}
+
+section.home {
+    padding: 100px 80px;
+    background: url(images/home-img.jpeg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.home .content{
+    color: #fff;
+    max-width: 50%;
+}
+
+.content h3{
+    font-size: 3.6rem;
+    margin-bottom: 20px;
+}
+
+.content p{
+    font-size: 1.1rem;
+    color: #eee;
+    font-weight: lighter;
+    line-height: 1.8;
+}
+
+.about{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+h2{
+    color: white;
+    font-size: 2.2rem;
+    padding-bottom: 30px;
+}
+
+h2 span{
+    color: #d3ad7f;
+}
+
+.about img{
+    width: 100%;
+}
+
+.about .about-us{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #13131a;
+    padding: 10px 0;
+    text-align: left;
+    
+}
+
+.about .about-content{
+    padding: 10px 20px;
+}
+
+.about-content h3{
+    font-size: 1.5rem;
+    padding: 0 0 20px 0;
+}
+
+.about-content p{
+    color: #ccc;
+    padding-bottom: 20px;
+}
+
+.our-menu{
+    text-align: center;
+    padding: 20px 30px 30px 30px;
+    background-color: black;
+    color: white;
+}
+
+.our-menu .menus{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    /* grid-template-rows: repeat(2,1fr); */
+}
+
+.menus .menu{
+    border: .1px solid #473f36;
+    height: 300px;
+    padding: 40px 50px;
+}
+
+.menu .btn{
+    
+    margin: 25px auto;
+}
+
+.tag{
+    font-size: 1.2rem;
+    padding: 13px 0 15px 0;
+}
+
+.menu p span{
+    font-size: .7rem;
+    padding-left: 7px;
+    text-decoration: line-through;
+}
+
+.our-products{
+    text-align: center;
+    background-color: black;
+    padding: 0 30px 40px 30px;
+    color: white;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.product{
+    border: .1px solid #473f36;
+    padding: 40px 40px 0 40px;
+}
+
+.product img{
+    height: 70%;
+    padding: 20px;
+}
+
+.product p{
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.product p span{
+    font-size: .8rem;
+    padding: 10px;
+    text-decoration: line-through;
+}
+
+.review{
+    text-align: center;
+    padding: 0px 30px 40px;
+    background-color: black;
+    color: white;
+}
+
+.review .reviews{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.reviews .costomers{
+    border: .1px solid #473f36;
+    padding: 25px 20px ;
+}
+
+.costomers img:nth-of-type(2){
+    height: 120px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.reviews .costomers p{
+    font-size: .85rem;
+    padding: 12px 0;
+    color: #ccc;
+}
+
+.contact-us{
+    text-align: center;
+    padding: 0 30px 30px;
+    color: white;
+    background-color: black;
+}
+
+.contact-us .contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+form{
+    padding: 35px 30px;
+    background-color: rgb(12, 12, 12);
+}
+
+form input{
+    display: block;
+    width: 100%;
+    height: 60px;
+    margin: 20px 0;
+    background-color: black;
+    border: 1px solid rgb(52, 51, 51);
+    padding: 0 0 0 30px;
+    color: rgb(167, 149, 117);
+    font-size: 1rem;
+}
+
+form h3{
+    font-size: 2rem;
+    padding: 10px;
+}
+
+form .btn{
+    display: inline;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.map iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.blogs{
+    text-align: center;
+    background-color: black;
+    padding: 0 30px 30px;
+    color: white;
+}
+
+.blogs .blog-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.blogs img{
+    width: 100%;
+}
+
+.blogs .blog{
+    border: 1px solid #473f36;
+}
+
+.blog .blog-text{
+    text-align: left;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.blog-text h3{
+    margin-bottom: 15px;
+}
+
+.blog-text p:nth-of-type(1){
+    color: #d3ad7f;
+    padding-bottom: 15px;
+}
+
+.blog .btn{
+    padding: 5px 0 5px 20px;
+    width: 120px;
+    margin-top: 20px;
+}
